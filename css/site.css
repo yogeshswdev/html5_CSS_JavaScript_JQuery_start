@@ -1,0 +1,84 @@
+/* site css
+*/
+
+header, footer{
+    background-color: lightgray;
+    border: solid 1px black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius: 7px;
+    padding: 5px;
+}
+footer{
+    padding: 10px;
+    border-radius: 7px;
+
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-color: darkgreen;
+}
+#main{
+    font-family:  Arial, sans-serif;
+    background-color: aqua;
+    color: brown;
+    margin: 20px 0;
+    border: solid 1px black;
+    padding: 5px;
+    border-radius: 7px;
+    }
+.bordered-image{
+    border: solid 1px black;
+}
+.simple-form{
+    padding: 2px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+}
+#results{
+    padding: 2px;
+    width: 600px;
+    display: inline-block;
+    vertical-align: top;
+}
+.result{
+    color: rgb(240, 126, 126);
+    border: solid 1px black;
+}
+.title{
+    color: black;
+    font-weight: bold;
+}
+
+.simple-form label{
+    
+    font-weight: bold;
+}
+.simple-form input [type = select],
+.simple-form select
+{
+    width: 150px;
+}
+.simple-form input[type=submit]{
+    color: white;
+    background-color: green;
+    padding: 3px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+.container{
+    width: 989px;
+    margin: 0 auto;
+    background-color: white;
+
+}
+header nav{
+    float: right;
+}
+header nav li{
+    display: inline;
+}
+#main a{
+    color: black;
+}
